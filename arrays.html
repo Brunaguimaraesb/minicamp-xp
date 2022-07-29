@@ -1,0 +1,38 @@
+<html>
+    <script>
+        var carros = ["Gol", "Palio", "Uno"];
+        console.log(carros);
+
+        var primeiroCarro = carros[0];
+        var segundoCarro = carros[1];
+        var terceiroCarro = carros[2];
+
+        console.log("Primeira posicao: " +primeiroCarro);
+        console.log("Segunda posicao: " +segundoCarro);
+        console.log("Terceira posicao: " +terceiroCarro);
+
+        carros[2] = "Argo";
+        console.log(carros[2]);
+
+        console.log("tamanho do array: " + carros.length);
+        console.log("ultimo elemento do array: " + carros[carros.length - 1]);
+
+        carros[3] = "Sandero";
+        console.log("ultimo elemento do array: " + carros[carros.length - 1]);
+
+        carros[carros.length] = Civic;
+        console.log("ultimo elemento do array: " + carros[carros.length - 1]);
+
+        carros.push("Polo");//add final da lista
+        console.log(carros);
+
+        console.log(carros.pop());//exclui ultimo da lista
+        console.log(carros);
+
+        console.unshift("Jetta");//add elementos no inicio da lista
+        console.log(carros);
+
+        console.log(carros.shift()); //remove o primeiro elemento da lista
+        console.log(carros);
+    </script>
+</html>
